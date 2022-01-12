@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section
+{
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+p
+{
+    position: relative;
+    font-size: 0.05em;
+    letter-spacing: -0.05em;
+    background: url(obama.png),url(obama.png);
+    /* background-blend-mode: color-dodge; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
